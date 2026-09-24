@@ -1,0 +1,13 @@
+name: EA Test
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 22f2000145@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
